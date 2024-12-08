@@ -150,7 +150,7 @@ export default function Header() {
                       About
                     </Link>
                     <Link
-                      href="/contactPage"
+                      href="/needHelp"
                       className="hover:text-[#029FAE] cursor-pointer text-gray-700"
                     >
                       Contact
