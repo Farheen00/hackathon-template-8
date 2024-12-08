@@ -164,7 +164,7 @@ export default function Header() {
           {/* Contact Section */}
           <div className="hidden sm:flex items-center gap-1 text-sm sm:text-base whitespace-nowrap">
             <Link
-              href="/contactPage"
+              href="/needHelp"
               className="text-gray-500 hover:text-[#029FAE] cursor-pointer"
             >
               Contact:
