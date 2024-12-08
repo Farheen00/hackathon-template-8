@@ -1,4 +1,5 @@
 import Companylogo from "./components/CompanyLogo"
+import ExploreStyles from "./components/ExploreStyles"
 import FeaturedProducts from "./components/FeaturedProducts"
 import Hero from "./components/Hero"
 import OurProducts from "./components/OurProducts"
@@ -12,6 +13,7 @@ export default function Home() {
     <Companylogo />
     <FeaturedProducts />
     <TopCategory />
+    <ExploreStyles />
     <OurProducts />
 
   

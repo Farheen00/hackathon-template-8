@@ -8,7 +8,7 @@ export default function FeaturedProducts() {
     <div className="w-full mx-auto px-5 sm:px-2">
       <section className="text-gray-600 body-font">
         <div className="container mx-auto pt-12">
-          <h1 className="text-left ml-28 text-3xl md:text-2xl font-semibold font-[Inter] mb-10">
+          <h1 className="text-left sm:ml-28 text-3xl md:text-2xl font-semibold font-[Inter] mb-10">
             Featured Products
           </h1>
           <div className="flex flex-wrap justify-center -m-4">

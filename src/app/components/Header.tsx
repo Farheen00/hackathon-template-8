@@ -17,14 +17,14 @@ export default function Header() {
   return (
     <header className="w-full">
       {/* Top Bar */}
-      <div className="text-gray-200 md:flex justify-between items-center px-4 py-2 bg-[#272343]">
-        <div className="text-sm flex ml-16 space-x-2">
+      <div className="text-gray-200 flex flex-wrap justify-between items-center px-4 py-2 bg-[#272343]">
+        <div className="text-sm flex ml-8 space-x-2">
           <div className="mt-1 text-white">
             <FaCheck size={14} />
           </div>
           <span>Free Shipping On All Orders $50</span>
         </div>
-        <div className="flex space-x-6 text-sm mr-8">
+        <div className="flex space-x-6 text-sm mr-8 ml-10">
           <div className="flex space-x-1">
             <span>Eng</span>
             <div className="pt-1">
