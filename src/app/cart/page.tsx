@@ -1,9 +1,8 @@
-import React from "react";
 import Image from "next/image";
 import { CiHeart } from "react-icons/ci";
 import { RiDeleteBin6Line } from "react-icons/ri";
 
-const Cart = () => {
+export default function Cart() {
   return (
     <div className="max-w-[1321px] mx-auto px-4 py-8">
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -115,6 +114,4 @@ const Cart = () => {
       </div>
     </div>
   );
-};
-
-export default Cart;
+}

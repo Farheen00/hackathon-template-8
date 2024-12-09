@@ -1,4 +1,4 @@
-import { FaClock, FaPhone } from "react-icons/fa"; 
+import { FaClock, FaPhone } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 
 export default function ContactInfo() {
@@ -7,9 +7,9 @@ export default function ContactInfo() {
       <div className="max-w-md md:max-w-xl lg:max-w-2xl text-center">
         <h2 className="text-2xl font-bold">Get In Touch With Us</h2>
         <p className="text-sm text-[#9F9F9F] mt-2">
-          For more information about our products & services, feel free to
-          drop us an email. Our staff will always be there to help you out. Do
-          not hesitate!
+          For more information about our products & services, feel free to drop
+          us an email. Our staff will always be there to help you out. Do not
+          hesitate!
         </p>
       </div>
 
@@ -39,8 +39,12 @@ export default function ContactInfo() {
             <FaClock className="text-xl text-[#029FAE]" />
             <div>
               <p className="font-medium text-lg">Working Time:</p>
-              <p className="text-sm text-gray-700">Monday-Friday: 9:00 - 22:00</p>
-              <p className="text-sm text-gray-700">Saturday-Sunday: 9:00 - 21:00</p>
+              <p className="text-sm text-gray-700">
+                Monday-Friday: 9:00 - 22:00
+              </p>
+              <p className="text-sm text-gray-700">
+                Saturday-Sunday: 9:00 - 21:00
+              </p>
             </div>
           </div>
         </div>

@@ -19,7 +19,7 @@ export default function TopCategory() {
                   src="/product5.png"
                   width={600}
                   height={600}
-                  className="object-cover w-full h-full"
+                  className=" w-full h-full"
                   alt="Wooden Chair"
                 />
                 <div className="absolute bottom-0 h-11 w-full text-white bg-black bg-opacity-70 p-2 text-center">
@@ -36,7 +36,7 @@ export default function TopCategory() {
                   src="/product6.png"
                   width={600}
                   height={600}
-                  className="object-cover w-full h-full"
+                  className=" w-full h-full"
                   alt="Wing Chair"
                 />
                 <div className="absolute bottom-0 h-11 w-full text-white bg-black bg-opacity-70 p-2 text-center">
@@ -53,7 +53,7 @@ export default function TopCategory() {
                   src="/product7.png"
                   width={600}
                   height={600}
-                  className="object-cover w-full h-full"
+                  className=" w-full h-full"
                   alt="Desk Chair"
                 />
                 <div className="absolute bottom-0 h-11 w-full text-white bg-black bg-opacity-70 p-2 text-center">

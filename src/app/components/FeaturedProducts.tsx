@@ -23,7 +23,7 @@ export default function FeaturedProducts() {
                   src="/product2.png"
                   width={600}
                   height={600}
-                  className="object-cover object-center w-full h-full block"
+                  className=" object-center w-full h-full block"
                   alt="product1"
                 />
               </span>
@@ -48,7 +48,7 @@ export default function FeaturedProducts() {
                   src="/product1.png"
                   width={600}
                   height={600}
-                  className="object-cover object-center w-full h-full block"
+                  className=" object-center w-full h-full block"
                   alt="product2"
                 />
               </span>
@@ -70,7 +70,7 @@ export default function FeaturedProducts() {
                   src="/product3.png"
                   width={600}
                   height={600}
-                  className="object-cover object-center w-full h-full block"
+                  className=" object-center w-full h-full block"
                   alt="product3"
                 />
               </span>
@@ -92,7 +92,7 @@ export default function FeaturedProducts() {
                   src="/product4.png"
                   width={600}
                   height={600}
-                  className="object-cover object-center w-full h-full block"
+                  className=" object-center w-full h-full block"
                   alt="product4"
                 />
               </span>

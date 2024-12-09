@@ -3,35 +3,62 @@ import Image from "next/image";
 import { FaRegHeart } from "react-icons/fa";
 
 export default function AllProducts() {
-    return(
-        <div className="w-full px-4 sm:px-8 md:px-16 lg:px-24">
+  return (
+    <div className="w-full px-4 sm:px-8 md:px-16 lg:px-24">
       <section className="text-gray-600 body-font">
         <div className="container mx-auto pt-12">
-               {/* Heading */}
+          {/* Heading */}
           <h1 className="text-left ml-28 text-3xl md:text-2xl font-semibold font-[Inter] mb-6">
             All Products
           </h1>
-         
 
           {/* Product Grid */}
           <div className="flex flex-wrap justify-center gap-6">
             {/* Example of a Single Product */}
             {[
-              { label: "New", price: "$20", img: "/product2.png", tagColor: "#01AD5A" },
-              { label: "Sales", price: "$20", img: "/product1.png", tagColor: "#F5813F" },
+              {
+                label: "New",
+                price: "$20",
+                img: "/product2.png",
+                tagColor: "#01AD5A",
+              },
+              {
+                label: "Sales",
+                price: "$20",
+                img: "/product1.png",
+                tagColor: "#F5813F",
+              },
               { price: "$20", img: "/product3.png" },
               { price: "$20", img: "/product4.png" },
-              { label: "New", price: "$20", img: "/product6.png", tagColor: "#01AD5A" },
-              
-              { label: "Sales", price: "$77", img: "/product10.png", tagColor: "#F5813F" },
+              {
+                label: "New",
+                price: "$20",
+                img: "/product6.png",
+                tagColor: "#01AD5A",
+              },
+
+              {
+                label: "Sales",
+                price: "$77",
+                img: "/product10.png",
+                tagColor: "#F5813F",
+              },
               { price: "$37", img: "/product11.png" },
               { price: "$200", img: "/product2.png" },
-              { label: "New", price: "$89", img: "/product5.png", tagColor: "#01AD5A" },
-              { label: "Sales", price: "$20", img: "/product1.png", tagColor: "#F5813F" },
+              {
+                label: "New",
+                price: "$89",
+                img: "/product5.png",
+                tagColor: "#01AD5A",
+              },
+              {
+                label: "Sales",
+                price: "$20",
+                img: "/product1.png",
+                tagColor: "#F5813F",
+              },
               { price: "$20", img: "/product3.png" },
-              {price: "$20", img: "/product7.png"}
-              
-              
+              { price: "$20", img: "/product7.png" },
             ].map((product, index) => (
               <div
                 key={index}
@@ -57,7 +84,9 @@ export default function AllProducts() {
                 </div>
                 <div className="mt-4 flex justify-between items-center">
                   <div>
-                    <h3 className="text-sm font-medium text-[#007580]">Library Stool Chair</h3>
+                    <h3 className="text-sm font-medium text-[#007580]">
+                      Library Stool Chair
+                    </h3>
                     <p className="mt-1 text-[#272343]">{product.price}</p>
                   </div>
                   <IoCartOutline className="text-[#272343] text-3xl bg-[#F0F2F3] rounded-md p-2 hover:bg-[#029FAE] hover:text-white cursor-pointer" />
@@ -68,5 +97,5 @@ export default function AllProducts() {
         </div>
       </section>
     </div>
-    )
+  );
 }

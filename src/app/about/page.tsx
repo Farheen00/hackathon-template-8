@@ -1,5 +1,3 @@
-
-import React from "react";
 import Image from "next/image";
 import AboutUs from "../components/About";
 import FeaturesSection from "../components/Feature";
@@ -7,10 +5,8 @@ import FeaturesSection from "../components/Feature";
 export default function Aboutpage() {
   return (
     <div className="bg-white py-12 flex flex-col gap-12 items-center">
-
-<AboutUs />
-<FeaturesSection />
-
+      <AboutUs />
+      <FeaturesSection />
 
       <div className="container mx-auto">
         {/* Popular Products Section */}
@@ -69,6 +65,4 @@ export default function Aboutpage() {
       </div>
     </div>
   );
-};
-
-
+}

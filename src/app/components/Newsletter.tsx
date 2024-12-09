@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 export default function Newsletter() {
   return (
@@ -77,4 +76,4 @@ export default function Newsletter() {
       </div>
     </div>
   );
-};
+}

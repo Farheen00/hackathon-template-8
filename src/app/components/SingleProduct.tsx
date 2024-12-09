@@ -1,7 +1,4 @@
-
-
-import Image from 'next/image';
-
+import Image from "next/image";
 
 export default function SingleProduct() {
   return (
@@ -14,7 +11,6 @@ export default function SingleProduct() {
             src="/product1.png"
             alt="Library Stool Chair"
             layout="fill"
-            
           />
         </div>
       </div>
@@ -28,8 +24,10 @@ export default function SingleProduct() {
           200 $ USD
         </button>
         <p className="text-center md:text-left leading-relaxed mb-6">
-          Pour-over craft beer pug drinking vinegar live-edge gastropub, keytar neutra sustainable fingerstache kickstarter.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas voluptatum a veritatis pariatur.
+          Pour-over craft beer pug drinking vinegar live-edge gastropub, keytar
+          neutra sustainable fingerstache kickstarter. Lorem ipsum dolor sit
+          amet consectetur adipisicing elit. Voluptas voluptatum a veritatis
+          pariatur.
         </p>
         <button className="px-6 py-2 bg-cyan-500 text-white font-semibold rounded hover:bg-cyan-600 transition duration-300">
           ADD To Cart
