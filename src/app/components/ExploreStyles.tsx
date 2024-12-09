@@ -3,6 +3,7 @@ import Image from "next/image";
 export default function ExploreStyles() {
   return (
     <div className="flex flex-wrap px-4 sm:px-8 md:px-44 -mx-2 mt-12">
+      
       {/* First Div with Main Image */}
       <div className="w-full md:w-1/2 p-2 flex flex-row justify-center items-center">
         <div className="w-full h-full relative">

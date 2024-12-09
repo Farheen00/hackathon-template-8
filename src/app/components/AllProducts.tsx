@@ -52,7 +52,7 @@ export default function AllProducts() {
                     width={600}
                     height={600}
                     alt={`Product ${index + 1}`}
-                    className="object-cover w-full h-48"
+                    className=" w-full h-48"
                   />
                 </div>
                 <div className="mt-4 flex justify-between items-center">
