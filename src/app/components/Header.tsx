@@ -58,6 +58,7 @@ export default function Header() {
               Comforty
             </h1>
           </div>
+          
           <div className="flex gap-4 items-center">
             <div className="flex items-center gap-2 bg-white px-4 py-2 rounded-md">
               <IoCartOutline className="w-6 h-6 cursor-pointer" />

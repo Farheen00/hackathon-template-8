@@ -9,7 +9,7 @@ export default function Hero() {
         {/* Left Content */}
         <div className="text-left max-w-xl flex flex-col gap-3">
           <p className="text-sm text-gray-500 uppercase tracking-wide text-center lg:text-left">
-            Welcome To Chary
+            Welcome To Chairy
           </p>
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-snug text-center lg:text-left">
             Best Furniture Collection For Your Interior.

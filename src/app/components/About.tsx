@@ -18,7 +18,7 @@ export default function AboutUs() {
             </p>
           </div>
           <button
-            aria-label="View Comforty collection"
+            
             className="bg-[#F9F9F9] bg-opacity-15 text-white py-2 px-4 rounded w-fit hover:bg-white hover:text-[#007580] transition-all duration-300"
           >
             View collection
